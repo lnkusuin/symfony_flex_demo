@@ -1,0 +1,12 @@
+# RUN composer create-project symfony/skeleton my-project
+version: '3'
+
+services:
+
+  app:
+    build: .
+    volumes:
+          - ./echo-api/:/var/www/html
+    ports:
+      - "80:80"
+    restart: always
