@@ -1,4 +1,4 @@
-FROM php:7.2
+FROM php:7.4
 
 RUN apt-get update
 RUN apt-get install -y git zip unzip libzip-dev
