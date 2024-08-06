@@ -14,7 +14,7 @@
     "require-dev": {
         "symfony/browser-kit": "4.4.8",
         "symfony/dotenv": "4.4.8",
-        "symfony/phpunit-bridge": "4.4.8"
+        "symfony/phpunit-bridge": "4.1.12"
     },
     "config": {
         "preferred-install": {
